@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(50,74,255,0.66);
+}
+form{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#submit{
+    position: absolute;
+    width: 150px;
+}
