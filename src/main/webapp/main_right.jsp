@@ -10,6 +10,6 @@
 <head>
     <title></title>
 </head>
-<body background="images/bg5.jpg">
+<body>
 </body>
 </html>
