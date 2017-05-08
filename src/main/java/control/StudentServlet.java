@@ -51,7 +51,8 @@ public class StudentServlet extends HttpServlet {
             StudentDao studentDao =new StudentDao();
             boolean deleteResult= studentDao.deleteStudentInfo(studentID);
             if(deleteResult){
-                response.sendRedirect("deleteStudentInfo_success.jsp");
+                //response.sendRedirect("deleteStudentInfo_success.jsp");
+                response.sendRedirect("deleteStudentInfo.jsp");
             }
         }
 
