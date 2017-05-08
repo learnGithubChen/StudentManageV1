@@ -68,9 +68,11 @@
         return true;
     }
 </script>
-<link href="css/deleteStudentInfo.css" type="text/css" rel="stylesheet">
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <body>
-<table>
+<table class="table table-hover">
     <thead>
     <td>学号</td>
     <td>姓名</td>
